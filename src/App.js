@@ -34,8 +34,11 @@ function App() {
     return (
       <>
         <Profile />
-        <Introduction name="Ahla" />
-        <Introduction name="Budi" />
+        <Introduction name="Ahla" kelahiran="2005-07-1" />
+        <Introduction name="Hani" kelahiran="2010-07-2" />
+        <Introduction name="Tata" kelahiran="2007-07-13" />
+        <Introduction name="Fairt" kelahiran="2008-07-16" />
+
       </>
     )
   }
