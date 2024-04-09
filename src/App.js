@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Introduction from "./components/introduction"
+import Profile from './components/profile'
 
-function App() {
+function AppExample() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,23 @@ function App() {
       </header>
     </div>
   );
+}
+
+const base = false;
+function App() {
+  if (base) {
+    return (
+      <AppExample />
+    )
+  } else {
+    return (
+      <div>
+        <Profile />
+        <Introduction name="Ahla" />
+        <Introduction name="Budi" />
+      </div>
+    )
+  }
 }
 
 export default App;
