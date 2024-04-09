@@ -32,11 +32,11 @@ function App() {
     )
   } else {
     return (
-      <div>
+      <>
         <Profile />
         <Introduction name="Ahla" />
         <Introduction name="Budi" />
-      </div>
+      </>
     )
   }
 }
